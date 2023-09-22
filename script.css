@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: darkgray;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+/* logo */
+.logo {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+/* navigation */
+.navigation a {
+    text-decoration: none;
+    color: blue;
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+/* icons */
+
+.icon-paper-plane:before {
+    content: "\f1d8";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-github:before {
+    content: "\eab0";
+}
+
+/* section one */
+section {
+    padding: 100px 200px;
+}
+
+/* main */
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* main contain */
+.main h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.main h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* main-btn */
+.main-btn {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+
+.main-btn:hover {
+    background-color: rgb(216, 192, 163);
+    transform: scale(1.1);
+
+}
+
+/* social-icons */
+
+.social-icons a {
+    color: black;
+    padding-right: 30px;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.icon-graduation-cap:before {
+    content: "\f19d";
+}
+
+/* section two */
+
+
+/* title */
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+/* content of section two */
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* card */
+.card {
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(88, 83, 83);
+    opacity: 100%;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+.icon {
+    color: black;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.icon-file-pdf:before {
+    content: "\eadf";
+}
+
+.icon-images:before {
+    content: "\e90e";
+}
+
+/* section three */
+/* projects */
+.project {
+    background-color: rgb(125, 119, 119);
+}
+
+.project .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: wheat;
+    border: 3px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    min-height: 14px;
+    width: 23%;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.project-card:hover {
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-card:hover .project-image {
+    opacity: 0.8;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: black;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.more-details {
+    text-decoration: none;
+    color: black;
+}
+
+.more-details:hover {
+    color: rgb(204, 127, 26);
+}
+
+.icon-phone:before {
+    content: "\f095";
+}
+
+.icon-location2:before {
+    content: "\e948";
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: cornflowerblue;
+}
+
+@media(max-width:1023px)
+{
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:641px)
+{
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px)
+{
+    body{
+        font-size: 10px;
+    }
+}
